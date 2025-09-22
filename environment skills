@@ -1,163 +1,128 @@
+#anvio
+merenlab/anvio
+Description : Anvi’o est une plateforme d’analyse et de visualisation très complète pour les données “omics” (métagénomique, pangenomique, phylogénomique, etc.).
+Fonctionnalités : traitement, visualisation, annotation, regroupement génomique (binning), pangenomes, analyse de couverture métagénomique, visualisation interactive dans le navigateur, etc.
+
+#any2fasta
+tseemann/any2fasta
+JConvert various sequence formats to FASTA
+
 #bakta
 Bakta: rapid & standardized annotation of bacterial genomes, MAGs & plasmids
 Bakta is a tool for the rapid & standardized annotation of bacterial genomes and plasmids from both isolates and MAGs. It provides dbxref-rich, sORF-including and taxon-independent annotations in machine-readable JSON & bioinformatics standard file formats for automated downstream analysis.
 
-#ppanggolin
-PPanGGOLiN: Depicting microbial species diversity via a Partitioned PanGenome Graph Of Linked Neighbors
-
-#SOCfinder
-SOCfinder is a bioinformatics tool for finding cooperative genes in bacterial genomes. SOCfinder combines information from several methods, considering if a gene is likely to: (1) code for an extracellular protein; (2) have a cooperative functional annotation; or (3) be part of the biosynthesis of a cooperative secondary metabolite. SOCfinder uses information on the quality and significance of database matches and annotations.
-
-#anvio
-merenlab/anvio 
-Description : Anvi’o est une plateforme d’analyse et de visualisation très complète pour les données “omics” (métagénomique, pangenomique, phylogénomique, etc.). 
-Fonctionnalités : traitement, visualisation, annotation, regroupement génomique (binning), pangenomes, analyse de couverture métagénomique, visualisation interactive dans le navigateur, etc. 
-
-#any2fasta
-tseemann/any2fasta 
-JConvert various sequence formats to FASTA
-
 #breseq
-barricklab/breseq 
-Description : breseq est un pipeline de détection de mutations à partir de données de séquençage haut débit (resequencing), spécialement conçu pour des génomes microbiens haploïdes (<20 Mb). 
+barricklab/breseq
+Description : breseq est un pipeline de détection de mutations à partir de données de séquençage haut débit (resequencing), spécialement conçu pour des génomes microbiens haploïdes (<20 Mb).
 hpc.nih.gov
-Fonctionnement : il aligne les lectures séquencées sur un génome de référence et identifie les changements (mutations ponctuelles, insertions, événements liés aux éléments mobiles, jonctions de séquences nouvelles, etc.). Les résultats sont annotés pour mettre en évidence les événements biologiques pertinents. 
+Fonctionnement : il aligne les lectures séquencées sur un génome de référence et identifie les changements (mutations ponctuelles, insertions, événements liés aux éléments mobiles, jonctions de séquences nouvelles, etc.). Les résultats sont annotés pour mettre en évidence les événements biologiques pertinents.
 
 #cctk
-ekwan/cctk  
-CRISPR Comparison Toolkit est un ensemble d’outils pour l’identification, la comparaison et l’analyse des systèmes CRISPR. 
-l’outil est centré sur les arrays CRISPR, les arbres de spacers, et l’analyse des cibles des spacer. 
-
+ekwan/cctk
+CRISPR Comparison Toolkit est un ensemble d’outils pour l’identification, la comparaison et l’analyse des systèmes CRISPR.
+L’outil est centré sur les arrays CRISPR, les arbres de spacers, et l’analyse des cibles des spacer.
 
 #clinker
-gamcil/clinker 
-Description : clinker est un pipeline Python pour générer automatiquement des figures de comparaison de clusters de gènes (par exemple des biosynthetic gene clusters) à partir de fichiers GenBank. Il produit une visualisation interactive et à l’échelle, qui peut être exportée en SVG ou HTML. 
-Fonctionnement : extraction des protéines, alignements globaux/pairois des séquences, détermination d’un ordre de visualisation optimal selon la similitude des clusters, et génération d’un rendu graphique interactif avec clustermap.js. 
+gamcil/clinker
+Description : clinker est un pipeline Python pour générer automatiquement des figures de comparaison de clusters de gènes (par exemple des biosynthetic gene clusters) à partir de fichiers GenBank. Il produit une visualisation interactive et à l’échelle, qui peut être exportée en SVG ou HTML.
+Fonctionnement : extraction des protéines, alignements globaux/pairois des séquences, détermination d’un ordre de visualisation optimal selon la similitude des clusters, et génération d’un rendu graphique interactif avec clustermap.js.
 
 #crisprstudio
 CRISPRStudio is a program developed to facilitate and accelerate CRISPR array visualization. It works by first comparing spacers sequence homology in a dataset, then assigning a two-color-code to each cluster of spacers and finally writing an svg file, which can be opened in graphics vector editor.
 
 #defensefinder
-DefenseFinder is a program to systematically detect known anti-phage systems. DefenseFinder uses MacSyFinder.détecter d
-
+DefenseFinder is a program to systematically detect known anti-phage systems. DefenseFinder uses MacSyFinder.
 
 #dnaapler
-gbouras13/dnaapler 
+gbouras13/dnaapler
 Dnaapler is a simple tool that reorients complete circular microbial genomes
 
 #genomad
-apcamargo/genomad 
+apcamargo/genomad
 geNomad: Identification of mobile genetic elements
 
 #kraken2
-DerrickWood/kraken2 
-Kraken  (classificateur taxonomique rapide pour les lectures de séquençage), The second version of the Kraken taxonomic sequence classification system
+DerrickWood/kraken2
+Kraken (classificateur taxonomique rapide pour les lectures de séquençage), The second version of the Kraken taxonomic sequence classification system
 
 #lovis4u
-J art-egorov/lovis4u 
+J art-egorov/lovis4u
 LoVis4u is a bioinformatics tool for Locus Visualisation and coverage profiles from sequencing experiments.
 
 #mash
-pour le calcul de distance de similitude entre séquences ou des génomes.
+Pour le calcul de distance de similitude entre séquences ou des génomes.
 
 #orthofinder
-
-OrthoFinder est un outil de génomique comparative pour l’identification des orthologues, la construction de gènes orthogroupes, l’inférence des arbres de gènes et la détection des duplications. Je n’ai pas retrouvé immédiatement le dépôt  exact dans ta liste, mais OrthoFinder est largement utilisé.
-
+OrthoFinder est un outil de génomique comparative pour l’identification des orthologues, la construction de gènes orthogroupes, l’inférence des arbres de gènes et la détection des duplications.
 Fonctionnalités typiques : identification d’orthologues et d’orthogroupes, inférence des arbres de gènes, chronologie des duplications, comparaison de génomes.
 
 #phageterm
-Description : PhageTerm and PhageTermVirome are a theoretical and statistical framework to analyze DNA termini and phage packaging mechanisms using next-generation sequencing data. 
+Description : PhageTerm and PhageTermVirome are a theoretical and statistical framework to analyze DNA termini and phage packaging mechanisms using next-generation sequencing data.
 
 #pharokka
-gbouras13/pharokka 
-Description : pharokka est un outil rapide et standardisé pour l’annotation des génomes de bactériophages et de phage-métagénomes. 
-
-Fonctionnement : il utilise PHANOTATE (spécifique aux phages) comme prédicteur de gènes par défaut. Des alternatives comme Prodigal ou pyrodigal sont disponibles. Il produit des fichiers d’annotation, des tables génétiques, et des prédictions de fonctions, facilitant l’analyse des génomes de phage. 
+gbouras13/pharokka
+Description : pharokka est un outil rapide et standardisé pour l’annotation des génomes de bactériophages et de phage-métagénomes.
+Fonctionnement : il utilise PHANOTATE (spécifique aux phages) comme prédicteur de gènes par défaut. Des alternatives comme Prodigal ou pyrodigal sont disponibles. Il produit des fichiers d’annotation, des tables génétiques, et des prédictions de fonctions, facilitant l’analyse des génomes de phage.
 pharokka.readthedocs.io
 
 #phispy
-linsalrob/PhiSpy 
-Description : PhiSpy est un outil qui identifie les prophages à l’intérieur des génomes bactériens (et potentiellement archéens) à partir d’un génome annoté. 
-
-Fonctionnement : PhiSpy combine des approches basées sur la similitude (similitude de séquences avec des prophages connus) et des approches compositionnelles (par exemple des motifs de typicité des prophages) pour détecter les régions prophagiques dans les génomes. 
+linsalrob/PhiSpy
+Description : PhiSpy est un outil qui identifie les prophages à l’intérieur des génomes bactériens (et potentiellement archéens) à partir d’un génome annoté.
+Fonctionnement : PhiSpy combine des approches basées sur la similitude (similitude de séquences avec des prophages connus) et des approches compositionnelles (par exemple des motifs de typicité des prophages) pour détecter les régions prophagiques dans les génomes.
 
 #pide
- chyghy/PIDE 
+chyghy/PIDE
 A framework for identification of prophage islands from bacterial genomes and metagenome-assembled genomes. It can also be used for identification of phage sequences from metagenomes.
 
 #pling
- iqbal-lab-org/pling 
+iqbal-lab-org/pling
 Pling is a software workflow for plasmid analysis using rearrangement distances, specifically the Double Cut and Join Indel (DCJ-Indel) distance. By intelligently combining containment distance (shared content as fraction of the smaller) and DCJ-indel distance ("how far apart evolutionarily" in a structural sense), and by preventing shared mobile elements from clouding the issue, it infers clusters of related plasmids.
 
 #prokka
 Jtorstenv/prokka
 Prokka est un outil bien connu d’annotation rapide de génomes bactériens. Il identifie les gènes, ARNt, ARN ribosomaux, et attribue des fonctions aux gènes détectés.
-
 Il produit des fichiers d’annotation (GFF, GBK, protéines, etc.) pour des génomes bactériens.
-
 Il est souvent utilisé comme une étape standard dans les pipelines d’analyse de génomes et comme point d’entrée pour d’autres outils d’analyse comme PhiSpy.
 
 #pyani
-
 pyani est un module Python pour le calcul de l’Average Nucleotide Identity (ANI) entre génomes. Il propose plusieurs méthodes d’estimation de similitude entre paires de génomes, ce qui est utile pour la taxonomie, la classification de nouveaux isolats et la comparaison génomique.
 
-C’est un outil couramment utilisé pour évaluer la similitude des génomes et pour distinguer des espèces microbiennes.
+#ppanggolin
+PPanGGOLiN: Depicting microbial species diversity via a Partitioned PanGenome Graph Of Linked Neighbors
 
 #quast
-
 QUAST (Quality Assessment Tool for genome assemblies) est un outil qui évalue la qualité d’assemblages de génomes. Il calcule diverses métriques (N50, nombre de contigs, tailles, erreurs de structure, etc.) et peut comparer des assemblages contre des génomes de référence.
 
-QUAST est largement utilisé pour déterminer la robustesse et la fiabilité d’assemblages génomiques, que ce soit pour des génomes bactériens ou eucaryotes.
-
-
 #ragtag
-
 RagTag est un outil de polissage et d’amélioration d’assemblages génomiques en utilisant des génomes de référence (assembly scaffolding, scaffolding / correction).
 
-Il aligne un assemblage de contigs à un ou plusieurs génomes de référence pour ordonner, orienter et combler des lacunes, améliorer la continuité, et corriger l’ordre des séquences.
-
-RagTag est utile pour générer des assemblages plus complets ou structurés, notamment lorsqu’on dispose de références proches ou bien caractérisées.
-
-Je n’ai pas vu dans ta liste le dépôt  spécifique (souvent marbl/RagTag ou RagTag), mais si tu veux, je peux te faire une fiche complète.
-
 #recognizer
- iquasere/reCOGnizer 
+iquasere/reCOGnizer
 A tool for domain-based annotation with databases from the Conserved Domains Database.
 
 #rrnpp
- TeamAIRE/RRNPP_detector 
-aims at identifying known and novel RRNPP-type quorum sensing systems in chromosomes, mobile genetic elements and bacteriophages of Firmicutes.
-defines candidate RRNPP-type quorum sensing systems as tandems of adjacent ORFs encoding a candidate receptor (250-500aa protein matching HMMs of peptide-binding tetraticopeptide repeats (TPRs)) and a candidate pro-peptide (10-100aa protein predicted to be excreted via the SEC-translocon or matching the amino-acid profile of SHPs)
+TeamAIRE/RRNPP_detector
+Aims at identifying known and novel RRNPP-type quorum sensing systems in chromosomes, mobile genetic elements and bacteriophages of Firmicutes.
 
 #seqkit
-shenwei356/seqkit 
-
-Description : SeqKit est un outil en ligne de commande rapide et multi-plateforme pour manipuler et analyser des fichiers FASTA et FASTQ (et aussi des fichiers SAM/BAM via rust-htslib). Il est optimisé pour la vitesse, la simplicité d’utilisation et la portabilité. 
-
-Fonctionnalités : extraction de sous-séquences, filtrage, recherche de motifs, statistiques sur les séquences, conversion de formats, sous-échantillonnage, manipulation de reads, etc. 
+shenwei356/seqkit
+Description : SeqKit est un outil en ligne de commande rapide et multi-plateforme pour manipuler et analyser des fichiers FASTA et FASTQ (et aussi des fichiers SAM/BAM via rust-htslib).
 
 #shovill
-
 Shovill est un pipeline de génome assembleur pour bactéries (souvent via SPAdes), conçu pour assembler rapidement des lectures Illumina en génomes bactériens, avec des options de nettoyage, de polissage et de filtrage.
 
-Il automatise plusieurs étapes d’assemblage, de correction et de filtrage pour produire des assemblies optimisées, prêtes pour l’annotation.
+#SOCfinder
+SOCfinder is a bioinformatics tool for finding cooperative genes in bacterial genomes. SOCfinder combines information from several methods, considering if a gene is likely to: (1) code for an extracellular protein; (2) have a cooperative functional annotation; or (3) be part of the biosynthesis of a cooperative secondary metabolite. SOCfinder uses information on the quality and significance of database matches and annotations.
 
 #trf
-
-TRF désigne souvent Tandem Repeats Finder, un logiciel classique pour identifier des répétitions en tandem (tandem repeats) dans des séquences d’ADN.
-
-Il est largement utilisé pour détecter les microsatellites, les minisatellites, et d’autres types de répétitions dans les génomes.
-
-TRF calcule des emplacements de répétitions en tandem, la taille des motifs, le nombre de copies, et d’autres statistiques.
-
+Tandem Repeats Finder, un logiciel pour identifier des répétitions en tandem (tandem repeats) dans des séquences d’ADN.
 
 #typping
 Efficient detection and typing of phage-plasmids
 
 #victor
-The VICTOR service is designed for viruses. 
+The VICTOR service is designed for viruses.
 
 #viridic
- CristinaMoraru/VIRIDIC
- VIRIDIC (Virus Intergenomic Distance Calculator) computes pairwise intergenomic distances/similarities amongst viral genomes. VIRIDIC is available at http://viridic.icbm.de as a web-service or a singularity package. In addition, the R language source code can be accessed from this repository.
+CristinaMoraru/VIRIDIC
+VIRIDIC (Virus Intergenomic Distance Calculator) computes pairwise intergenomic distances/similarities amongst viral genomes.
